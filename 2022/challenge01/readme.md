@@ -38,13 +38,13 @@ Ahora que ya sabes esto, usa este input para detectar los usuarios incorrectos: 
 
 ## Pistas
 
-Los datos pueden estar en cualquier orden.
-Los datos pueden estar en la misma línea o separados por líneas.
-Los usuarios se separan por un salto de línea en blanco.
-Pueden venir datos que no son necesarios para el usuario pero eso no lo hacen inválidos.
+- Los datos pueden estar en cualquier orden.
+- Los datos pueden estar en la misma línea o separados por líneas.
+- Los usuarios se separan por un salto de línea en blanco.
+- Pueden venir datos que no son necesarios para el usuario pero eso no lo hacen inválidos.
 
 ## Cómo enviar la solución
 
-Usa el comando "submit" para enviar tu solución con el número de usuarios correctos + el nombre del último usuario válido. Por ejemplo:
+Usa el comando `submit` para enviar tu solución con el número de usuarios correctos + el nombre del último usuario válido. Por ejemplo:
 
 `$ submit 482@midudev`

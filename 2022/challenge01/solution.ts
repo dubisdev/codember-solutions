@@ -29,7 +29,7 @@ const checkUser = (usr: string) => {
 };
 
 const getSolution = (text: string) => {
-  const usrs = separateUsers(input);
+  const usrs = separateUsers(text);
   const validMap = usrs.map(checkUser);
 
   const numberOfValidUsers = validMap.filter((e) => e === true).length;
